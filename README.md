@@ -1,13 +1,21 @@
 # QATest
 
-This repo contains two project
+This repo contains two [Maven] (https://maven.apache.org/) projects.
 
-##Instacarro 
+## Instacarro 
 
 An API test using Java.
-API: genderize.io
+The tests were built using API: [Genderize.io] (https://genderize.io/)
 
-##Instacarro-ui
+### CLI Command
+mvn clean test
 
-A Selenium project.
-Web: www.practiceselenium.com/
+## Instacarro-ui
+
+This is a UI Test built with [Selenium] (http://www.seleniumhq.org/)
+The test were performed in the following Web page: www.practiceselenium.com/
+
+Please note the test are using  **ChromeDriver 2.34**. It supports Chrome v61-63
+
+### CLI Command
+mvn clean test
